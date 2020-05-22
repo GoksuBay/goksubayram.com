@@ -1,0 +1,10 @@
+.header-color a{
+
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
