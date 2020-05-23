@@ -8,7 +8,7 @@ body {
 	width: 100%;
 	/* color: #fff; */
   background-color:  #24243e;
-	background-size: 1500% 150%;
+	background-size: 150% 150%;
 	-webkit-animation: Gradient 30s ease infinite;
 	-moz-animation: Gradient 30s ease infinite;
 	animation: Gradient 30s ease infinite;
