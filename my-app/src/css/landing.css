@@ -1,3 +1,19 @@
-.hcolor h1{
-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body{
+  text-align: center;
+}
+
+.text h1{
+font-family: 'Noto Sans JP', sans-serif;
+  font-size: 65px;
+  color: white;
+}
+
+.text h2{
+  font-family: 'Noto Sans JP', sans-serif;
+    font-size: 36px;
+    color: white;
+    width: 100%;
+    opacity: 0.7;
 }
