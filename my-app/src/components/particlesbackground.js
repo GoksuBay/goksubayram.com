@@ -12,35 +12,45 @@ class ParticlesBackground extends Component {
 	        "number": {
 	            "value": 160,
 	            "density": {
-	                "enable": false
+	                "enable": true,
+	                "value_area": 1500
 	            }
 	        },
-	        "size": {
-	            "value": 10,
-	            "random": true
+	        "line_linked": {
+	            "enable": true,
+	            "opacity": 0.1
 	        },
 	        "move": {
-	            "direction": "bottom",
-	            "out_mode": "out"
+	            "direction": "right",
+	            "speed": 0.05
 	        },
-	        "line_linked": {
-	            "enable": false
+	        "size": {
+	            "value": 2.5
+	        },
+	        "opacity": {
+	            "anim": {
+	                "enable": true,
+	                "speed": 1.5,
+	                "opacity_min": 0.05
+	            }
 	        }
 	    },
 	    "interactivity": {
 	        "events": {
 	            "onclick": {
-	                "enable": true,
-	                "mode": "remove"
+	                "enable": false,
+	                "mode": "push"
 	            }
 	        },
 	        "modes": {
-	            "remove": {
-	                "particles_nb": 10
+	            "push": {
+	                "particles_nb": 1
 	            }
 	        }
-	    }
+	    },
+	    "retina_detect": true
 	}} />
+v3.3.0-beta.1
   </div>
 );
   }
