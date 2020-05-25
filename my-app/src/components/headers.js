@@ -7,7 +7,7 @@ import '../css/header.css';
 class Headers extends Component {
   render() {
     return(
-      <div className='headerlinks' style={{height: '300px', position: 'relative' }} >
+      <div className='headerlinks' style={{height: '100px', position: 'relative' }} >
       <Layout fixedHeader fixedLinks>
           <header className='header-color' scroll>
               <Navigation className='hlinks'>
@@ -17,8 +17,6 @@ class Headers extends Component {
                   <a href="/contact">Contact</a>
               </Navigation>
           </header>
-          <Main/>
-          <Content/>
       </Layout>
       </div>
       );

@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import '../css/landing.css';
 
 class Landing extends Component {
   render() {
     return(
-      <div><h1>Welcome Page</h1></div>
+      <div className="hcolor"><h1>Welcome Page</h1></div>
     );
   }
 }
