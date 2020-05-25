@@ -1,69 +1,8 @@
-body {
-    background-size: cover;
-}
-
-
-
-#background {
-	width: 100%;
-	/* color: #fff; */
-  background-color:  #24243e;
-	background-size: 150% 150%;
-	-webkit-animation: Gradient 30s ease infinite;
-	-moz-animation: Gradient 30s ease infinite;
-	animation: Gradient 30s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-color: #302b63
-	}
-	25% {
-		background-color: #0f0c29
-	}
-	50% {
-		background-color: #000046
-	}
-  75% {
-     background-color: #0f0c29
-   }
-  100% {
-    background-color: #302b63
-  }
-}
-
-@-moz-keyframes Gradient {
-  0% {
-		background-color: #302b63
-	}
-	25% {
-		background-color: #0f0c29
-	}
-	50% {
-		background-color: #000046
-	}
-  75% {
-     background-color: #0f0c29
-   }
-  100% {
-    background-color: #302b63
-  }
-}
-
-@keyframes Gradient {
-  0% {
-		background-color: #302b63
-	}
-	25% {
-		background-color: #0f0c29
-	}
-	50% {
-		background-color: #000046
-	}
-  75% {
-     background-color: #0f0c29
-   }
-  100% {
-    background-color: #302b63
-  }
+#particle-canvas {
+    position: fixed !important;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
 }

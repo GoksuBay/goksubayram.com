@@ -11,13 +11,8 @@
   transition: font-size 0.5s, color 0.5s;
 }
 
-.social-links i:hover{
-  font-size: 6em;
-
-}
-
 #github:hover {
-  color: black;
+  color: #979797;
 }
 
 #linkedin:hover {
