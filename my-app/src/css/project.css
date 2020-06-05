@@ -1,0 +1,17 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+section {
+  padding: 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+.text h1{
+font-family: 'Noto Sans JP', sans-serif;
+  font-size: 65px;
+  color: white;
+}
