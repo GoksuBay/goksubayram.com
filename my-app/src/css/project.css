@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
 body {
  margin: 0;
  padding: 0;
@@ -14,4 +16,23 @@ section {
 font-family: 'Noto Sans JP', sans-serif;
   font-size: 65px;
   color: white;
+}
+
+.project {
+  animation: anim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+  display: flex;
+}
+
+@keyframes anim {
+    0% {
+      opacity: 0;
+    }
+    37.5%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
 }
