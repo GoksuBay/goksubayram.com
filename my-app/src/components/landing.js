@@ -5,7 +5,7 @@ import '../css/landing.css';
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
+      <div className="landing"style={{width: '100%', margin: 'auto'}}>
         <Grid className="grid">
           <Cell col={12}>
           <div className="text">

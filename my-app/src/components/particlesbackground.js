@@ -38,7 +38,7 @@ class ParticlesBackground extends Component {
 	    "interactivity": {
 	        "events": {
 	            "onclick": {
-	                "enable": false,
+	                "enable": true,
 	                "mode": "push"
 	            }
 	        },
@@ -50,7 +50,6 @@ class ParticlesBackground extends Component {
 	    },
 	    "retina_detect": true
 	}} />
-v3.3.0-beta.1
   </div>
 );
   }

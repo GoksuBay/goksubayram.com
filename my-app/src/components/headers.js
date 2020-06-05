@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import {Layout, Header, Navigation, Content} from 'react-mdl';
-import {Link} from 'react-router-dom';
+import {Layout, Navigation, Content} from 'react-mdl';
 import Main from './main.js';
 import '../css/header.css';
+import {Link} from 'react-router-dom';
 
 class Headers extends Component {
   render() {
@@ -11,11 +11,11 @@ class Headers extends Component {
       <Layout fixedHeader fixedLinks>
           <header className='header-color' scroll>
               <Navigation className='hlinks'>
-                  <a href="/">Home</a>
-                  <a href="/about">About</a>
-                  <a href="/projects">Projects</a>
-                  <a href="/contact">Contact</a>
-                  <a href="/resume">Resume</a>
+                  <Link to="/">Home</Link>
+                  <Link to="/about">About</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
+                  <Link to="/resume">Resume</Link>
               </Navigation>
           </header>
       </Layout>
