@@ -1,25 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
-body{
-  text-align: center;
-}
-
-.text h1{
+.header h1{
 font-family: 'Noto Sans JP', sans-serif;
   font-size: 65px;
   color: white;
 }
 
-.text h2{
+.about p{
   font-family: 'Noto Sans JP', sans-serif;
-    font-size: 36px;
-    color: white;
-    width: 100%;
-    opacity: 0.7;
-}
-
-.text p{
-  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
   color: white;
   text-align: left;
+  background-color: rgba(255,255,255,0.2);
 }
