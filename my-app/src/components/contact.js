@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import '../css/contact.css';
 
 class Contact extends Component {
   render() {
     return(
-      <div><h1>Contact</h1></div>
+      <div className="cp"><i className='fas fa-envelope' id='email' aria-hidden='true'/></div>
     );
   }
 }
