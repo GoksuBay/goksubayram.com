@@ -11,7 +11,6 @@ section {
   margin: 0 auto;
 }
 
-
 .text h1{
 font-family: 'Noto Sans JP', sans-serif;
   font-size: 65px;
@@ -23,6 +22,7 @@ font-family: 'Noto Sans JP', sans-serif;
   animation-iteration-count: 1;
   animation-duration: 2.5s;
   display: flex;
+  margin-bottom: 3%;
 }
 
 @keyframes anim {
@@ -35,4 +35,29 @@ font-family: 'Noto Sans JP', sans-serif;
     100% {
       opacity: 1;
     }
+}
+
+#sisago {
+  background-image: url(../components/photo/sisago.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  top:50%;
+}
+
+#milis {
+  background-image: url(../components/photo/milis.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #063F25;
+}
+
+#website {
+  background-image: url(../components/photo/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #D1D1D1;
 }
