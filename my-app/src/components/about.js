@@ -8,20 +8,27 @@ class About extends Component {
         <Grid className="grid">
           <Cell col={12}>
             <div className="header">
-              <h1>Who am I?</h1>
+              <h1>About Me</h1>
             </div>
           </Cell>
         <Cell col={6}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus quam eu nisi cursus, mattis dapibus arcu eleifend. Duis ante dui, hendrerit at lobortis eget, accumsan vitae nulla. Curabitur a urna orci. Maecenas sed sapien nunc. Duis sit amet nulla suscipit, lobortis massa iaculis, dignissim diam. Aenean non tortor vel ex auctor ultricies. Morbi at quam fermentum, tristique nisi at, varius nisl. Pellentesque facilisis molestie faucibus. Nulla odio ligula, porta non lacinia vel, maximus finibus dolor. Etiam luctus erat quis nisl accumsan dictum. Sed porttitor pulvinar sapien nec aliquet. Integer sed lacinia dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas at metus finibus, bibendum erat in, rhoncus ligula.</p>
+              <p>Hey There!<br></br><br></br>
+              I am Göksu Bayram and Computer Engineering student at Akdeniz University. Living in Antalya right now.<br></br><br></br>
+              I am a programmer who is interested in Artificial Intelligence, Game Programming, Linux Distros and so. Experienced with many programming languages such as C++, Java, Python, LUA, C#...
+              <br></br><br></br>
+              Improving on Game Engines, C++ Programming Language, Artificial Intelligence and Operating Systems.
+              </p>
           </Cell>
           <Cell col={6}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus quam eu nisi cursus, mattis dapibus arcu eleifend. Duis ante dui, hendrerit at lobortis eget, accumsan vitae nulla. Curabitur a urna orci. Maecenas sed sapien nunc. Duis sit amet nulla suscipit, lobortis massa iaculis, dignissim diam. Aenean non tortor vel ex auctor ultricies. Morbi at quam fermentum, tristique nisi at, varius nisl. Pellentesque facilisis molestie faucibus. Nulla odio ligula, porta non lacinia vel, maximus finibus dolor. Etiam luctus erat quis nisl accumsan dictum. Sed porttitor pulvinar sapien nec aliquet. Integer sed lacinia dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas at metus finibus, bibendum erat in, rhoncus ligula.</p>
+                <p>My programming journey started when I was 12 years old, that day I wanted to make my own games and started learning GameMaker Engine. After some practise, I made my first game, there was an labyrinth and character need to find the key to escape from the labyrinth, but there were ghosts as well which can kill the character. <br></br><br></br>
+                My second game was a platformer game, the character needed to reach the goal. After these small projects, I noticed that I love programming, and decided to be a Programmer (and Computer Engineer). Told this to my uncle who is IT teacher and he bought me a C++ book to learn it. This is how my journey started.
+                </p>
             </Cell>
 
-            <Cell col={6} id="lastP" style={{
-        position: 'relative', left: '25%', 
-    }}>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempus quam eu nisi cursus, mattis dapibus arcu eleifend. Duis ante dui, hendrerit at lobortis eget, accumsan vitae nulla. Curabitur a urna orci. Maecenas sed sapien nunc. Duis sit amet nulla suscipit, lobortis massa iaculis, dignissim diam. Aenean non tortor vel ex auctor ultricies. Morbi at quam fermentum, tristique nisi at, varius nisl. Pellentesque facilisis molestie faucibus. Nulla odio ligula, porta non lacinia vel, maximus finibus dolor. Etiam luctus erat quis nisl accumsan dictum. Sed porttitor pulvinar sapien nec aliquet. Integer sed lacinia dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas at metus finibus, bibendum erat in, rhoncus ligula.</p>
+            <Cell col={6} id="lastP">
+                  <p>After that day, I had some small projects, such as modding a game with LUA and managing a server. In university, I worked on Milis Package System called MPS for Milis Linux OS, these job experience made me fan of Linux Distros and decided to work on Linux.<br></br><br></br>
+                  Now I am really happy to work on programming because that is my dreamjob. I am making my dream come true.
+                  </p>
               </Cell>
         </Grid>
       </div>
