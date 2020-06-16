@@ -90,7 +90,7 @@ class Projects extends Component {
 
           </CardText>
           <CardActions border>
-              <Button style={{color:"#fff"}} target="_blank" rel="noopener noreferrer" href="https://github.com/GoksuBay/goksubayram.com">GitHub</Button>
+              <Button style={{color:"#fff"}} target="_blank" rel="noopener noreferrer" href="https://github.com/GoksuBay/goksubayram.com/tree/master/my-app">GitHub</Button>
           </CardActions>
           <CardMenu style={{color: '#000'}}>
           </CardMenu>
