@@ -20,8 +20,8 @@ class About extends Component {
               </p>
           </Cell>
           <Cell col={6}>
-                <p>My programming journey started when I was 12 years old, that day I wanted to make my own games and started learning GameMaker Engine. After some practise, I made my first game, there was an labyrinth and character need to find the key to escape from the labyrinth, but there were ghosts as well which can kill the character. <br></br><br></br>
-                My second game was a platformer game, the character needed to reach the goal. After these small projects, I noticed that I love programming, and decided to be a Programmer (and Computer Engineer). Told this to my uncle who is IT teacher and he bought me a C++ book to learn it. This is how my journey started.
+                <p>My programming journey started when I was 12 years old, that day I wanted to make my own games and started learning GameMaker Engine.<br></br> After some practise, I made my first game with GameMaker Engine. <br></br><br></br>
+                My second game was a platformer game which was also made with GameMaker After these small projects, I noticed that I love programming, and decided to be a Programmer (and Computer Engineer). Told this to my uncle who is IT teacher and he bought me a C++ book and started learn it, C++ is the first language that I learnt. This is how my journey started.
                 </p>
             </Cell>
 
