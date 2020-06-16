@@ -6,4 +6,5 @@ Source code of www.goksubayram.com
 ## Setup:
 * Clone the repository: `git clone https://github.com/GoksuBay/goksubayram.com`
 
-* `npm install` and `npm start`, Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* `npm install` and `npm start`
+* Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
