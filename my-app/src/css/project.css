@@ -17,6 +17,22 @@ font-family: 'Noto Sans JP', sans-serif;
   color: white;
 }
 
+
+@media screen and (max-width: 899px){
+.project {
+  animation: anim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+  display: grid;
+  margin-bottom: 3%;
+  size: 15px;
+}
+#cards {
+  width: 215px;
+}
+}
+
+@media screen and (min-width: 900px){
 .project {
   animation: anim;
   animation-iteration-count: 1;
@@ -24,7 +40,10 @@ font-family: 'Noto Sans JP', sans-serif;
   display: flex;
   margin-bottom: 3%;
 }
-
+#cards {
+  width: 415px;
+}
+}
 @keyframes anim {
     0% {
       opacity: 0;
@@ -36,6 +55,8 @@ font-family: 'Noto Sans JP', sans-serif;
       opacity: 1;
     }
 }
+
+
 
 #sisago {
   background-image: url(../components/photo/sisago.jpeg);
@@ -59,5 +80,12 @@ font-family: 'Noto Sans JP', sans-serif;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: #D1D1D1;
+}
+#brdb {
+  background-image: url(../components/photo/brdb.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #D1D1D1;
 }

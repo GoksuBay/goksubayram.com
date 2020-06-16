@@ -1,14 +1,17 @@
-.my-node-enter {
-  opacity: 0;
+.npm {
+  animation: landinganim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
 }
-.my-node-enter-active {
-  opacity: 1;
-  transition: opacity 200ms;
-}
-.my-node-exit {
-  opacity: 1;
-}
-.my-node-exit-active {
-  opacity: 0;
-  transition: opacity 200ms;
+
+@keyframes landinganim {
+    0% {
+      opacity: 0;
+    }
+    37.5%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
 }

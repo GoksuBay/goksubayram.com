@@ -4,6 +4,7 @@ body{
   text-align: center;
 }
 
+@media screen and (min-width: 900px){
 .text h1{
 font-family: 'Noto Sans JP', sans-serif;
   font-size: 65px;
@@ -22,4 +23,27 @@ font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Noto Sans JP', sans-serif;
   color: white;
   text-align: left;
+}
+}
+
+@media screen and (max-width: 899px){
+.text h1{
+font-family: 'Noto Sans JP', sans-serif;
+  font-size: 56px;
+  color: white;
+}
+
+.text h2{
+  font-family: 'Noto Sans JP', sans-serif;
+    font-size: 26px;
+    color: white;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.text p{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  text-align: left;
+}
 }

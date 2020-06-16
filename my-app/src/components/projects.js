@@ -12,7 +12,7 @@ class Projects extends Component {
     <div>
       <div className="project">
 
-      <Card shadow={0}  style={{width: '415px', margin:'auto', background:'#072637'}}>
+      <Card id="cards" shadow={0} style={{margin:'auto', background:'#072637'}}>
           <CardTitle id="sisago"style={{color: '#072637', height: '176px'}}>Sisago</CardTitle>
           <CardText style={{color: '#fff'}}>
               Java Project for Apartment Managements. Reads receipts and check if it is paid.
@@ -26,7 +26,7 @@ class Projects extends Component {
       </Card>
 
 
-      <Card shadow={0} style={{width: '415px', margin:'auto', background:'#072637'}}>
+      <Card id="cards" shadow={0} style={{margin:'auto', background:'#072637'}}>
           <CardTitle style={{background: '#000', color: '#072637', height: '176px', background: 'url('+ggj+') center / cover no-repeat'}}>Fix If You Can</CardTitle>
           <CardText style={{color: '#fff'}}>
               An hypercasual PC game made for Global Game Jam. Used Godot Engine and GDScript.
@@ -40,7 +40,7 @@ class Projects extends Component {
       </Card>
 
 
-    <Card shadow={0} style={{width: '415px', margin:'auto', background:'#072637'}}>
+    <Card id="cards" shadow={0} style={{margin:'auto', background:'#072637'}}>
         <CardTitle id="milis" style={{color: '#fff', height: '176px'}}>Milis Linux OS</CardTitle>
         <CardText style={{color: '#fff'}}>
             Worked on Milis Package System called "MPS" for Milis Linux OS.
@@ -56,8 +56,8 @@ class Projects extends Component {
 
       <div className="project">
 
-      <Card shadow={0}  style={{width: '415px', margin:'auto', background:'#072637'}}>
-          <CardTitle id="sisago"style={{color: '#072637', height: '176px'}}>BRDB</CardTitle>
+      <Card id="cards"shadow={0}  style={{margin:'auto', background:'#072637'}}>
+          <CardTitle id="brdb"style={{color: '#072637', height: '176px'}}>BRDB</CardTitle>
           <CardText style={{color: '#fff'}}>
               Books and Reviewing Website Project.
               Used: PHP, MYSQL.
@@ -69,7 +69,7 @@ class Projects extends Component {
           </CardMenu>
       </Card>
 
-      <Card shadow={0} style={{width: '415px', margin:'auto', background:'#072637'}}>
+      <Card id="cards" shadow={0} style={{margin:'auto', background:'#072637'}}>
           <CardTitle style={{background: '#000', color: '#FFF', height: '176px', background: 'url('+fp+') center / cover no-repeat'}}>Localization</CardTitle>
           <CardText style={{color: '#fff'}}>
               Was a member of a team to translate Finding Paradise into Turkish.
@@ -82,11 +82,11 @@ class Projects extends Component {
           </CardMenu>
       </Card>
 
-      <Card shadow={0} style={{width: '415px', margin:'auto', background:'#072637'}}>
+      <Card id="cards" shadow={0} style={{margin:'auto', background:'#072637'}}>
           <CardTitle id="website" style={{ color: '#000', height: '176px'}}>goksubayram.com</CardTitle>
           <CardText style={{color: '#fff'}}>
-              The website you are looking for. My first ReactJS project.
-              You may get source code of the project.
+              The website you are browsing. My first ReactJS project.
+              You may get source code of the project on GitHub.
 
           </CardText>
           <CardActions border>

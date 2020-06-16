@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
-
+@media screen and (min-width: 900px){
 .hlinks a{
 
   color: #FFFFFF;
@@ -13,6 +13,23 @@
   margin: auto;
   font-family: 'Bree Serif', serif;
   transition: font-size 0.5s, color 0.5s;
+}
+}
+
+@media screen and (max-width: 899px){
+.hlinks a{
+
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+  height: 50%;
+  margin: auto;
+  font-family: 'Bree Serif', serif;
+  transition: font-size 0.5s, color 0.5s;
+}
 }
 
 .hlinks a:hover{

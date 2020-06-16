@@ -8,22 +8,24 @@ import ParticlesBackground from './particlesbackground.js';
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
 import '../css/main.css';
 
+const NoMatchPage = () => {
+  return (
+    <h3 className="npm" style={{color: 'white'}}>Whoops! Page doesn't exist.</h3>
+  );
+};
+
 class Main extends Component {
+
+
   render() {
     return(
-      <TransitionGroup>
-      <CSSTransition
-      timeout={300}
-      classNames="my-node"
-      >
         <Switch>
         <Route exact path="/" component={Landing} />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/portfolio" component={Projects} />
         <Route path="/contact" component={Contact} />
+        <Route component={NoMatchPage} />
         </Switch>
-        </CSSTransition>
-        </TransitionGroup>
     );
   }
 }
