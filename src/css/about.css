@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+.about {
+  animation: anim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+}
+
+@media screen and (min-width: 900px){
+.header h1{
+font-family: 'Noto Sans JP', sans-serif;
+  font-size: 65px;
+  color: white;
+}
+
+.about p{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  background-color: rgba(255,255,255,0.2);
+}
+
+
+#lastP p{
+  text-align: center;
+  position: relative;
+  left: 50%;
+  }
+}
+
+@media screen and (max-width: 899px){
+.header h1{
+font-family: 'Noto Sans JP', sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
+.about p{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  background-color: rgba(255,255,255,0.2);
+  position: relative;
+}
+
+
+#lastP p{
+  text-align: center;
+  position: relative;
+  }
+}
+
+@keyframes anim {
+    0% {
+      opacity: 0;
+    }
+    37.5%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}

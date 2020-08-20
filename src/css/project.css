@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+section {
+  padding: 50px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.text h1{
+font-family: 'Noto Sans JP', sans-serif;
+  font-size: 65px;
+  color: white;
+}
+
+
+@media screen and (max-width: 899px){
+.project {
+  animation: anim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+  display: grid;
+  margin-bottom: 3%;
+  size: 15px;
+}
+#cards {
+  width: 215px;
+}
+}
+
+@media screen and (min-width: 900px){
+.project {
+  animation: anim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+  display: flex;
+  margin-bottom: 3%;
+}
+#cards {
+  width: 415px;
+}
+}
+@keyframes anim {
+    0% {
+      opacity: 0;
+    }
+    37.5%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+
+#sisago {
+  background-image: url(../components/photo/sisago.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  top:50%;
+}
+
+#milis {
+  background-image: url(../components/photo/milis.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #063F25;
+}
+
+#website {
+  background-image: url(../components/photo/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #D1D1D1;
+}
+#brdb {
+  background-image: url(../components/photo/brdb.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #D1D1D1;
+}

@@ -1,0 +1,42 @@
+@media screen and (min-width:900px){
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i{
+  color: #FFFFFF;
+  font-size: 3em;
+  padding: 18px;
+  transition: font-size 0.5s, color 0.5s;
+}
+}
+
+@media screen and (max-width:899px){
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links i{
+  color: #FFFFFF;
+  font-size: 2em;
+  padding: 18px;
+  transition: font-size 0.5s, color 0.5s;
+}
+}
+#github:hover {
+  color: #979797;
+}
+
+#linkedin:hover {
+  color: #0083FF;
+}
+
+#twitter:hover {
+  color: #00CDFF;
+}

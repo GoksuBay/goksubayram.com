@@ -1,0 +1,51 @@
+.headerlinks{
+  animation: headeranim;
+  animation-duration: 2.5s;
+}
+
+.landing{
+  animation: landinganim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+}
+
+.social-links{
+  animation: footeranim;
+  animation-duration: 2.5s;
+}
+
+@keyframes headeranim {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes landinganim {
+    0% {
+      opacity: 0;
+    }
+    37.5%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+@keyframes footeranim {
+    0% {
+      opacity: 0;
+    }
+    37.5%{
+      opacity: 0;
+    }
+    75%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}

@@ -1,0 +1,17 @@
+.npm {
+  animation: landinganim;
+  animation-iteration-count: 1;
+  animation-duration: 2.5s;
+}
+
+@keyframes landinganim {
+    0% {
+      opacity: 0;
+    }
+    37.5%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
